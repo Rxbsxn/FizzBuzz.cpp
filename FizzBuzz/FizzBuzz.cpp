@@ -2,10 +2,15 @@
 //
 
 #include "stdafx.h"
-
+#include <iostream>
+#include "array.h"
 
 int main()
 {
-    return 0;
+  int * table = initializeArray();
+  
+  fillArrayWithNumbers(table);
+
+  system("pause");
 }
 
