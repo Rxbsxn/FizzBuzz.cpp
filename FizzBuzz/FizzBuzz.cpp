@@ -8,14 +8,11 @@
 
 int main()
 {
-  int table[100] = {};
+  const int arraySize = 100;
+  int table[arraySize] = {};
   
   fillArrayWithNumbers(table);
-
-  for (int i = 0; i < 100; i++) {
-    std::cout << i << " " <<table[i] << std::endl;
-  }
-
+  iterateThroughArray(table, arraySize);
   system("pause");
 }
 
