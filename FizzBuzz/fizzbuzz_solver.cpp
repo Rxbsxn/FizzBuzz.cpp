@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void iterateThroughArray(int table[], int arraySize)
+void solveFizzBuzzForArray(int table[], int arraySize)
 {
   for (int i = 0; i < arraySize; i++)
   {
@@ -14,19 +14,14 @@ void iterateThroughArray(int table[], int arraySize)
 
 void processFizzBuzz(int number)
 {
-  if (isFizzBuzz(number)) {
+  if (isFizzBuzz(number))
     cout << "FizzBuzz" << endl;
-  }
-  else if (isBuzz(number)) {
+  else if (isBuzz(number))
     cout << "Buzz" << endl;
-  }
   else if (isFizz(number))
-  {
     cout << "Fizz" << endl;
-  }
-  else {
-    cout << number << endl;
-  }
+  else
+   cout << number << endl;
 }
 
 bool isFizzBuzz(int number)

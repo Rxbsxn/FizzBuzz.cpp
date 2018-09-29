@@ -12,7 +12,7 @@ int main()
   int table[arraySize] = {};
   
   fillArrayWithNumbers(table);
-  iterateThroughArray(table, arraySize);
+  solveFizzBuzzForArray(table, arraySize);
   system("pause");
 }
 
