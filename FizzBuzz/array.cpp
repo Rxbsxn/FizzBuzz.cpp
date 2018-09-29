@@ -7,6 +7,6 @@ void fillArrayWithNumbers(int table[])
 {
   for (int i = 0; i < arraySize; i++)
   {
-    table[i] = i;
+    *(table + i) = i + 1;
   }
 }
