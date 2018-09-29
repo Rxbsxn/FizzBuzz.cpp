@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FizzBuzz", "FizzBuzz\FizzBuzz.vcxproj", "{73F20776-5E8C-4A00-8ADD-F11695E19864}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73F20776-5E8C-4A00-8ADD-F11695E19864}.Debug|x64.ActiveCfg = Debug|x64
+		{73F20776-5E8C-4A00-8ADD-F11695E19864}.Debug|x64.Build.0 = Debug|x64
+		{73F20776-5E8C-4A00-8ADD-F11695E19864}.Debug|x86.ActiveCfg = Debug|Win32
+		{73F20776-5E8C-4A00-8ADD-F11695E19864}.Debug|x86.Build.0 = Debug|Win32
+		{73F20776-5E8C-4A00-8ADD-F11695E19864}.Release|x64.ActiveCfg = Release|x64
+		{73F20776-5E8C-4A00-8ADD-F11695E19864}.Release|x64.Build.0 = Release|x64
+		{73F20776-5E8C-4A00-8ADD-F11695E19864}.Release|x86.ActiveCfg = Release|Win32
+		{73F20776-5E8C-4A00-8ADD-F11695E19864}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA05900B-7275-49F9-B55C-072E652C4038}
+	EndGlobalSection
+EndGlobal
